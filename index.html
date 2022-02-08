@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bookpod</title>
+    <link rel="stylesheet" href="/index.css" />
+    <meta name="theme-color" content="#7e4eff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="menu-icon">
+        <span class="fas fa-bars"></span>
+      </div>
+      <div class="logo">Bookpod<span id="dot">.</span></div>
+      <div class="nav-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Podcasts</a></li>
+      </div>
+      <div class="search-icon">
+        <span class="fas fa-search"></span>
+      </div>
+      <div class="cancel-icon">
+        <span class="fas fa-times"></span>
+      </div>
+      <form action="#" id="search">
+        <input type="search" class="search" placeholder="    Search" />
+      </form>
+    </nav>
+    <div class="content"></div>
+    <div class="header-text">
+      <h1>
+        Home of <span class="lakh">100,000+</span>
+        <br />
+        books and podcasts
+      </h1>
+    </div>
+    <div class="header-description">
+      <p>
+        Get the latest books and listen to the <br />
+        latest podcasts all in one place
+      </p>
+    </div>
+    <div class="header-button">
+      <button id="button">Get Started</button>
+    </div>
+    <div class="container">
+      <div class="img">
+        <img
+          id="img-1"
+          src="https://previews.123rf.com/images/myibean/myibean1404/myibean140400027/27598547-books-with-eye-glasses-and-pen.jpg"
+          alt="spects on books"
+        />
+      </div>
+      <div class="img-des">
+        <h4 style="color: #004584">LOREM IPSUM</h4>
+        <br />
+        <h1>
+          Lorem Ipsum <br />
+          dolar sit amet
+        </h1>
+        <br />
+        <p style="color: #7c7d7c">
+          Lorem ipsum dolor sit amet consectetur<br />
+          adipisicing elit,sed to eiusmod tempor <br />
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div class="icons">
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+        <a href="#"> <i class="fab fa-facebook"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <!-- Grid  -->
+    <div class="text">
+      <div class="header1">
+        <h3>Featured Writers</h3>
+      </div>
+      <div class="img-container">
+        <div class="flex-img">
+          <img
+            src="https://static01.nyt.com/images/2016/12/14/arts/14braithwaite-obit/14braithwaite-obit-superJumbo.jpg?quality=75&auto=webp"
+            alt=""
+          />
+          <p>E R Braithwaite</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="https://www.bl.uk/britishlibrary/~/media/bl/global/windrush/people%20and%20authors/ext/getty/photograph-of-andrea-levy-gettyimages-548140965.jpg?crop=1&cropX=0&cropY=31&cropW=1911&cropH=1075&cropcachekey=103119111075&w=608&h=342&dispW=608&dispH=342&hash=5CC8BB8754ED80F48A77B87857767D46"
+            alt=""
+          />
+          <p>Andrea Levy</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="https://cdn.britannica.com/20/217720-050-857D712B/American-novelist-Stephen-King-2004.jpg"
+            alt=""
+          />
+          <p>Stephen King</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="https://www.juanherranz.com/wp-content/uploads/2020/07/escritor-Jorge-Amado.jpg"
+            alt=""
+          />
+          <p>Jorge Amado</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="https://images.gr-assets.com/authors/1472502468p8/295178.jpg"
+            alt=""
+          />
+          <p>Gayle Forman</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="https://images.indianexpress.com/2020/08/shashi-tharoor-4.jpg"
+            alt=""
+          />
+          <p>Shashi Tharoor</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+          <p>J.K Rowling</p>
+        </div>
+        <div class="flex-img">
+          <img
+            src="https://images.gr-assets.com/authors/1353452301p8/1406384.jpg"
+            alt=""
+          />
+          <p>John Green</p>
+        </div>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
